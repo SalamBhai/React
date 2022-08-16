@@ -1,0 +1,17 @@
+.timeline-item{
+    /* border: 2px solid red; */
+    padding: 4px 10px;
+    border-radius: 20px;
+    white-space: nowrap;
+    color: black;
+    font-size: 0.8em;
+}
+
+.timeline-item.active{
+    background-color: black;
+    color: white;
+}
+
+.timeline-item.inactive{
+    border: 1px solid black;
+}

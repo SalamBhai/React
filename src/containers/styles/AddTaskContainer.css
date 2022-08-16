@@ -1,0 +1,22 @@
+.add-task-container{
+    height: 100vh;
+    background-color: white;
+    border: 2px solid red;
+
+    padding: 10px 20px;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.add-task-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.selectedColor{
+    border: 2px solid black;
+}
